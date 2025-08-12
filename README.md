@@ -1,0 +1,1 @@
+https://github.com/vendetta188919/slozhno-sosredotochitsya-fd#
