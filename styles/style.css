@@ -163,7 +163,7 @@
 }
 
 .section__title-main {
-  color: var(--accent-color-text); 
+  color: var(--accent-color-text);
 }
 
 .section__title_additional {
@@ -269,8 +269,6 @@
 
   .cards__list {
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: dense;
-    grid-template-rows: auto auto auto;
     grid-auto-flow: column dense;
     grid-template-rows: 192px 230px 318px;
     gap: 20px;
@@ -298,7 +296,7 @@
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
@@ -341,7 +339,7 @@
     grid-template-columns: 315px 1fr;
   }
 
-  .section:nth-child(2n) .section__title-main,  .section:nth-child(2n) .article{
+  .section:nth-child(2n) .section__title-main,  .section:nth-child(2n) .article {
     width: 315px;
   }  
 
@@ -356,15 +354,6 @@
   }
 
   .cards__list {
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: dense;
-    grid-template-rows: auto auto auto;
-    grid-auto-flow: column dense;
-    grid-template-rows: 192px 230px 318px;
-    gap: 20px;
-  }
-
-  .cards__list {
     grid-template-rows: 260px 315px 433px;
   }
 
@@ -373,6 +362,6 @@
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
