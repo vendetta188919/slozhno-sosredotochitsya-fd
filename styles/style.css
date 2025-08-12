@@ -164,7 +164,7 @@
 }
 
 .section__title-main {
-  color: var(--accent-color-text); 
+  color: var(--accent-color-text);
 }
 
 .section__title_additional {
@@ -329,7 +329,7 @@
 
   .section:nth-child(2n) .section__title-main{
     max-width: 315px;
-  }  
+  }
 
   .section:nth-child(2n) .section__cards {
     display: grid;
