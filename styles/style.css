@@ -327,7 +327,7 @@
     grid-template-columns: 315px 1fr;
   }
 
-  .section:nth-child(2n) .section__title-main{
+  .section:nth-child(2n) .section__title-main {
     max-width: 315px;
   }
 
