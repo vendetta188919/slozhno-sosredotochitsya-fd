@@ -8,6 +8,7 @@
   --accent-contrast-color: rgba(53, 52, 48, 1);
   --drop-shadow: rgba(255, 141, 203, 1);
   --text-color: rgba(53, 52, 48, 1);
+  --button-border: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,5 +22,6 @@
     --accent-contrast-color: rgba(53, 52, 48, 1);
     --drop-shadow: rgba(255, 141, 203, 1);
     --text-color: rgba(53, 52, 48, 1);
+    --button-border: rgba(50, 49, 45, 0.4);
   }
 }

@@ -9,4 +9,5 @@
   --decor-elem: flex;
   --accent-contrast-color: rgba(0, 0, 40, 1);
   --drop-shadow: rgba(255, 0, 112, 1);
+  --button-border: rgba(255, 0, 112, 0.4);
 }
