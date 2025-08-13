@@ -151,7 +151,6 @@
   display: grid;
   gap: clamp(52px, 52px + 30 * (100vw - 375px) / 393, 81px);
   padding: clamp(40px, 8vw, 60px) clamp(10px, 2.6vw, 20px);
-  background-color: var(--bg-color);
 }
 
 .section {
@@ -169,9 +168,6 @@
 
 .section__title_additional {
   font-weight: 400;
-  font-size: 18px;
-  color: var(--accent-contrast-color);
-  background-color: var(--drop-shadow);
 }
 
 .section__cards {
@@ -225,8 +221,8 @@
 
 .footer {
   display: grid;
-  background-color: var(--bg-color);
-  min-block-size: 664px;
+  height: 100vh; 
+  min-height: 668px;
   padding: clamp(10px, 2.6vw, 20px);
   align-items: center;
   justify-items: center;
