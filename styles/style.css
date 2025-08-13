@@ -221,7 +221,7 @@
 
 .footer {
   display: grid;
-  height: 100vh; 
+  height: 100vh;
   min-height: 668px;
   padding: clamp(10px, 2.6vw, 20px);
   align-items: center;
@@ -285,7 +285,7 @@
   }
 
   .footer {
-    min-block-size: 1024px;
+    min-height: 1024px;
   }
 
   .footer__title {
@@ -333,7 +333,7 @@
   }
 
   .footer {
-    min-block-size: 768px;
+    min-height: 768px;
   }
 
   .header__description {
